@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+
+.sora-font {
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 1200px;
+    border: 1px dotted red;
+    margin: 0 auto;
+}
+
+
+
+
+
+/* Shared styles */
+button {
+    padding: .5rem 2rem;
+    font-size: medium;
+    border: none;
+    border-radius: .5rem;
+}
+
+.green-button {
+    background-color: #179800;
+    color: white;
+}
+
+.transparent-button {
+    background-color: transparent;
+    border: 1px solid #179800;
+}
+
+.green-text {
+    background-color: #179800;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+
+
+
+
+/* Header background */ 
+header {
+    background: linear-gradient(0deg, #EFEBE3, #FFFFFF);
+}
+
+
+
+
+
+/* Navbar related styles */
+nav {
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: black;
+    font-size: medium;
+}
+
+nav div {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+nav i {
+    font-size: large;
+    color: #179800;
+}
+
+.hamburger {
+    display: none;
+}
+
+
+
+
+
+/* Hero section related styles */ 
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .5rem;
+
+    text-align: center;
+    /* max-height: 40%; */
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    font-weight: 500;
+    max-width: 70%;
+}
+.hero-section p {
+    font-weight: 300;
+    max-width: 70%;
+}
+
+.hero-section img {
+    width:60%;
+}
