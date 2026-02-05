@@ -52,6 +52,7 @@ button {
 /* Header background */ 
 header {
     background: linear-gradient(0deg, #EFEBE3, #FFFFFF);
+    margin-bottom: 5rem;
 }
 
 
@@ -120,4 +121,47 @@ nav i {
 
 .hero-section img {
     width:60%;
+}
+
+
+
+
+
+/* Services section styles */
+.services-section {
+    padding: 0 6rem;
+}
+.services-section h1 {
+    margin-bottom: 1rem;
+}
+.ser-card-cont {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+.ser-card {
+    background-color: #EFEBE3;
+    border-radius: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+    text-align: justify;
+
+    padding: 1rem 3rem;
+}
+.ser-card-img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ser-card p {
+    font-weight: 300;
 }
