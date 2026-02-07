@@ -175,6 +175,8 @@ nav i {
 .popular-section {
     background-color: #EFEBE3;
     padding: 5rem 2rem;
+
+    margin-bottom: 5rem;
 }
 .popular-section > h1 {
     margin-bottom: 1rem;
@@ -190,7 +192,6 @@ nav i {
 .pop-card {
     background-color: white;
     padding: 0 .7rem;
-    /* border: 1px dotted darkmagenta; */
     border-radius: .5rem;
 
     display: flex;
@@ -220,7 +221,6 @@ nav i {
 .pop-card > .pop-card-des > .pop-card-rating {
     display: flex;
     align-items: center;
-    /* justify-content: center; */
     gap: .2rem;
 }
 .pop-card > .pop-card-des > .pop-card-rating > i {
@@ -246,4 +246,54 @@ nav i {
 .pop-card-container > :first-child > button {
     align-self: flex-start;
     background-color: white;
+}
+
+
+
+
+
+
+/* offers section styles */
+.offers-section {
+    padding: 0 6rem;
+    margin-bottom: 25rem;
+}
+.offers-section > h1 {
+    margin-bottom: 1rem;
+}
+.off-card-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1rem;
+}
+.off-card-container > :first-child {
+    background-color: #115414;
+    grid-column: span 3;
+}
+.off-card-container > :first-child  button {
+    background-color: #63B76D;
+}
+.off-card-container > :last-child {
+    grid-column: span 2;
+    background-color: #102861;
+}
+.off-card-container > :last-child button {
+    background-color: #2A4D97;
+}
+.off-card {
+    padding: 1rem;
+    border-radius: 1rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.off-card > .off-card-des {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .5rem;
+}
+.off-card > .off-card-des p {
+    color: white;
 }
