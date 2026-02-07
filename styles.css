@@ -12,7 +12,6 @@
 
 body {
     max-width: 1200px;
-    border: 1px dotted red;
     margin: 0 auto;
 }
 
@@ -44,6 +43,24 @@ button {
     -webkit-background-clip: text;
     color: transparent;
 }
+
+a:hover {
+    border-bottom: 2px dashed #115414;
+}
+button:hover {
+    box-shadow: 0 0 4px black;
+    cursor: pointer;
+}
+i:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+.pop-card:hover, 
+.off-card:hover,
+.ser-card:hover {
+    box-shadow: 5px 5px 20px;
+}
+
 
 
 
