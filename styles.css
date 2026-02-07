@@ -166,3 +166,84 @@ nav i {
 .ser-card p {
     font-weight: 300;
 }
+
+
+
+
+
+/* Popular product section styles */
+.popular-section {
+    background-color: #EFEBE3;
+    padding: 5rem 2rem;
+}
+.popular-section > h1 {
+    margin-bottom: 1rem;
+}
+
+.pop-card-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, 100px);
+    gap: 1rem;
+}
+
+.pop-card {
+    background-color: white;
+    padding: 0 .7rem;
+    /* border: 1px dotted darkmagenta; */
+    border-radius: .5rem;
+
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.pop-card > .pop-card-img {
+    background-color: #EFEBE3;
+    height: 80px;
+    width: 80px;
+    border-radius: .5rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pop-card > .pop-card-des > h4 {
+    font-weight: 500;
+}
+
+.pop-card > p,
+.pop-card > .pop-card-des > p {
+    font-weight: 300;
+}
+
+.pop-card > .pop-card-des > .pop-card-rating {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    gap: .2rem;
+}
+.pop-card > .pop-card-des > .pop-card-rating > i {
+    color: gold;
+}
+
+.pop-card-container > :first-child {
+    align-items: start;
+    flex-direction: column;
+
+    padding: 2rem  1.5rem;
+    
+    background-image: url('./assets/vegetable-offer.png'), linear-gradient(120deg, #53DB3A, #FFFFFF);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+
+    grid-column: span 2;
+    grid-row: span 3;
+}
+.pop-card-container > :first-child > h2 {
+    color: white;
+}
+.pop-card-container > :first-child > button {
+    align-self: flex-start;
+    background-color: white;
+}
