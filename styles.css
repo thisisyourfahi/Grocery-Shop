@@ -8,11 +8,13 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
     max-width: 1200px;
     margin: 0 auto;
+    background-color: rgba(128, 128, 128, 0.199);
 }
 
 
@@ -58,7 +60,11 @@ i:hover {
 .pop-card:hover, 
 .off-card:hover,
 .ser-card:hover {
-    box-shadow: 5px 5px 20px;
+    /* border: 2px solid greenyellow; */
+    box-shadow: 5px 5px 20px greenyellow;
+    transform: translateY(-10px);
+
+    transition: transform 100ms linear, box-shadow 100ms linear;
 }
 
 
